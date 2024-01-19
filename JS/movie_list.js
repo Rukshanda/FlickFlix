@@ -66,7 +66,7 @@ function({results: movieList, total_pages}){
           
             for (const movie of movieList){
                 const movieCard = createMovieCard(movie);
-                movieListElem.querySelector('.movie-container').appendChild(movieCard);
+                movieListElem.querySelector('.searchmovie-container').appendChild(movieCard);
             }
         })
     })
