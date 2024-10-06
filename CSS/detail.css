@@ -1,0 +1,115 @@
+.movie-page-banner{
+    position: relative;
+    margin-left: 20px;
+    
+   font-family: var(--font-family);
+}
+@media (max-width:768px) {
+    .movie-page-banner{
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 0px;
+       
+    }
+    .movie-page-banner--img{
+        margin-left: 0px !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .movie-page-banner--img img{
+        width: 100% !important;
+           
+        border-radius: 20px;
+    }
+    .movie-page-banner--details{
+       
+        width: 80% !important;
+        margin-left: 0px !important;
+    
+    }
+    .movieDetails-info{
+ 
+        font-size: 14px !important;
+       
+    }
+    .movie-description{
+        width: 100%;
+        font-size: 16px !important;
+    }
+    .movieDetails-heading{
+        font-size: 1.7rem !important;
+    
+    }
+    .starring , .directed{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.movie-page-banner--img{
+    margin-left: 20px;
+}
+
+.movie-page-banner--img img{
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+}
+.movieDetails-heading{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.movie-page-banner--details{
+    width: 60%;
+    margin-left: 30px;
+
+}
+.movieDetails-info{
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rating-box{
+    align-items: center;
+}
+.movieGenre{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.movie-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.starring , .directed{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+ justify-content: space-between;
+}
+.directed .desc{
+    width: 70%;
+}
+.starring .desc{
+    width: 250px;
+}
+
+.movie-page-banner--detailsbox-2{
+    margin-top: 30px;
+}
+.movie-videos--heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.movie-videos--heading h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
