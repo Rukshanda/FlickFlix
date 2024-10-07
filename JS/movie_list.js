@@ -33,10 +33,12 @@ function({results: movieList, total_pages}){
     <div class="movie-section--heading">
     <h3>All ${genreName} Movies</h3>
   </div>
+  
+  
   <ul class="searchmovie-container flex-row ">
       
   </ul>
-
+ 
   <button class = "btn load-more"> Load More </button>
     `;
 
